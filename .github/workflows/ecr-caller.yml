@@ -7,4 +7,4 @@ on:
 
 jobs:
   call-workflow-in-ecr-template:
-    uses: salientmass/.github/workflow-templates/ecr-publish.yml@main
+    uses: salientmass/github-action-workflows/.github/workflows/ecr-publish.yml@main
