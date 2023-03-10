@@ -8,8 +8,8 @@ jobs:
   call-workflow-in-ecr-template:
     uses: salientmass/github-action-workflows/.github/workflows/ecr-publish.yml@main
     secrets:
-      AWS_REGION: ${{ secrets.AWS_REGION }}
-      AWS_ORG_ID: ${{ secrets.AWS_ORG_ID }}
-      AWS_ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY }}
-      AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
-      SECRET_ACCESS_KEY: ${{ secrets.SECRET_ACCESS_KEY }}
+      ECR_AWS_REGION: ${{ secrets.ECR_AWS_REGION }}
+      ECR_AWS_ORG_ID: ${{ secrets.ECR_AWS_ORG_ID }}
+      ECR_AWS_ACCESS_KEY: ${{ secrets.ECR_AWS_ACCESS_KEY }}
+      ECR_AWS_ACCOUNT_ID: ${{ secrets.ECR_AWS_ACCOUNT_ID }}
+      ECR_SECRET_ACCESS_KEY: ${{ secrets.ECR_SECRET_ACCESS_KEY }}
