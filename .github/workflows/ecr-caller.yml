@@ -1,0 +1,10 @@
+name: ECR Build Caller Workflow
+on:
+  push:
+    # branches:
+    #   - main
+    #   -
+
+jobs:
+  call-workflow-in-ecr-template:
+    uses: salientmass/.github/workflow-templates/ecr-publish.yml@main
